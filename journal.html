@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="journal.html">Journal</a></li>
+         
+          <li><a href="skinCare.html">SkinCare</a> </li>
+          <li><a href="aboutme.html">About me</a></li>
+        </ul>
+    </nav>
+
+   <div id="cover_section">
+    <video id="cover_video" src="pexels-taryn-elliott-9683623 (2160p).mp4" autoplay loop muted>video error</video>
+
+    </div>
+    <div id="text_area_overlay">
+        <textarea id="overlay_text" placeholder="journal..."></textarea>
+        <button class="sendButton" onclick="showAlert()">send</button>
+    </div>
+</div>
+
+<script>
+    function showAlert() {
+        alert('The journey was sent!');
+    }
+</script>
+</body>
+</html>
